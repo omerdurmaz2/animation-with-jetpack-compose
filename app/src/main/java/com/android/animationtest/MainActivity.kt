@@ -26,7 +26,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             AnimationTestTheme {
-                ACSizeTransform()
+                RememberInfiniteTransition()
             }
         }
     }
